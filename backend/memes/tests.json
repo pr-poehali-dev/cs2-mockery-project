@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "Get all memes",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Vote for meme",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "id": 1,
+        "value": 1
+      },
+      "expectedStatus": 200
+    }
+  ]
+}
